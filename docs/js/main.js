@@ -601,9 +601,23 @@
 		}
 	};
 
+	var quizSetup = function(){
+        function onCompleteHandler(sender) {
+            var resultAsString = JSON.stringify(sender.data);
+        }    
+		$.get("data/quiz.json", function(surveyJSON){
+				var survey = new window.Survey.Model(surveyJSON);
+				survey.onComplete.add(onCompleteHandler);
+				// Survey.StylesManager.applyTheme("modern");
+				
+				Survey.StylesManager.applyTheme("bootstrap");
+				$("#surveyContainer").Survey({model:survey});
+		});
+	}
+
 
 	// Document on load.
-	$(function(){
+	$(document).ready(function(){
 
 		parallax();
 		burgerMenu();
@@ -624,7 +638,7 @@
 		faqAnimate();
 		trustedAnimate();
 		footerAnimate();
-		
+		quizSetup();
 
 	});
 

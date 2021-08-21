@@ -1,0 +1,169 @@
+{
+  "title": "Trivia Time - Chernobyl, 1986 ",
+  "firstPageIsStarted": true,
+  "startSurveyText": "Start Quiz",
+  "completedHtml": "<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4><br />Hope you had fun!",
+  "showPrevButton": false,
+  "pages": [
+    {
+      "name": "page0",
+      "questions": [
+        {
+          "type": "html",
+          "html": "You are about to start quiz. <br/>Please click on <b>'Start Quiz'</b> button when you are ready."
+        }
+      ]
+    },
+    {
+      "name": "page1",
+      "questions": [
+        {
+          "type": "radiogroup",
+          "choices": ["10", "4000", "2", "30"],
+          "choicesOrder": "random",
+          "name": "Q1",
+          "correctAnswer": "2",
+          "title": "How many people who died on the spot soon after the nuclear catastrophe at Chernobyl?"
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "questions": [
+        {
+          "type": "radiogroup",
+          "choices": [
+            "Ukraine",
+            "Republic of Soviet Union",
+            "Belarus",
+            "Up to Sweden",
+            "All the above"
+          ],
+          "choicesOrder": "random",
+          "name": "Q2",
+          "correctAnswer": "All the above",
+          "title": "How far did the radiations lay out?"
+        }
+      ]
+    },
+    {
+      "name": "page3",
+      "questions": [
+        {
+          "type": "radiogroup",
+          "choices": ["5", "10", "15", "30"],
+          "choicesOrder": "random",
+          "name": "Q3",
+          "correctAnswer": "10",
+          "title": "Major releases from the unit 4 of Chernobyl reactor lasted how many days?"
+        }
+      ]
+    },
+    {
+      "name": "page4",
+      "questions": [
+        {
+          "type": "radiogroup",
+          "choices": [
+            "Plutonium",
+            " Iodine(131)",
+            "Caesium(137)",
+            "Strontium(90)",
+            "All the above"
+          ],
+          "choicesOrder": "random",
+          "name": "Q4",
+          "correctAnswer": "All the above",
+          "title": "The major radionuclides that were released at the time of the disaster."
+        }
+      ]
+    },
+    {
+      "name": "page5",
+      "questions": [
+        {
+          "type": "radiogroup",
+          "choices": ["Polonium", "Plutonium", "Iodine(131)", "Caesium(137)"],
+          "choicesOrder": "random",
+          "name": "Q5",
+          "correctAnswer": "Iodine(131)",
+          "title": "Which radioactive element led to the maximum number short term health related issues during & after the incident?"
+        }
+      ]
+    },
+    {
+      "name": "page6",
+      "questions": [
+        {
+          "type": "radiogroup",
+          "choices": ["100 years", "15000 years", "20000 years", "800 years"],
+          "choicesOrder": "random",
+          "name": "Q6",
+          "correctAnswer": "20000 years",
+          "title": "How long will it take for Chernobyl to become  habitable  ?"
+        }
+      ]
+    },
+    {
+      "name": "page7",
+      "questions": [
+        {
+          "type": "checkbox",
+          "choices": [
+            "Lung cancer",
+            "Thyroid cancer",
+            "Leukaemia",
+            "Breast cancer"
+          ],
+          "choicesOrder": "random",
+          "name": "Q7",
+          "correctAnswer": ["Thyroid cancer", "Leukaemia"],
+          "title": "What were the 2 types of cancers that were observed after the nuclear fallout?"
+        }
+      ]
+    },
+    {
+      "name": "page8",
+      "questions": [
+        {
+          "type": "radiogroup",
+          "choices": ["10", "48", "36", "55"],
+          "choicesOrder": "random",
+          "name": "Q8",
+          "correctAnswer": "36",
+          "title": "How many hours  after the incident were the settlers evacuated?"
+        }
+      ]
+    },
+    {
+      "name": "page9",
+      "questions": [
+        {
+          "type": "radiogroup",
+          "choices": [
+            "Natural",
+            "Not heeding to safety protocols",
+            "Maintenance issues"
+          ],
+          "choicesOrder": "random",
+          "name": "Q9",
+          "correctAnswer": "Not heeding to safety protocols",
+          "title": "What was the reason behind the Chernobyl debacle?"
+        }
+      ]
+    },
+    {
+      "name": "page10",
+      "questions": [
+        {
+          "type": "radiogroup",
+          "choices": ["50km", "30km", "85km", "45km"],
+          "choicesOrder": "random",
+          "name": "Q10",
+          "correctAnswer": "30km",
+          "title": "How much of the area around the Chernobyl plant, public access ,and inhabitation are restricted?"
+        }
+      ]
+    }
+  ]
+}
